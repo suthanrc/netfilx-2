@@ -1,0 +1,424 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    height: 250rem;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(39, 36, 36);
+}
+
+.classbg {
+    height: 41rem;
+    width: 100%;
+    background-image: url(img/orginal.jpg);
+    box-shadow: 112px 114px 351px 171px rgba(0, 0, 0, 0.75) inset;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.class-main-nav {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div-nav {
+    height: 70px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+    margin: 6px;
+}
+
+.class-eng {
+    height: 32px;
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(37, 34, 34);
+    border-color: rgb(39, 37, 37);
+    border: 1px solid;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.class-sign {
+    height: 32px;
+    width: 65px;
+    background-color: rgb(218, 19, 19);
+    border-radius: 4px;
+    padding: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-color: rgb(218, 19, 19);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.class-texts {
+    height: 12rem;
+    width: 75%;
+    position: absolute;
+    bottom: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 40px;
+
+}
+
+p {
+    font-size: 19px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.class-input {
+    height: 80px;
+    width: 75%;
+    position: absolute;
+    bottom: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.class-input input{
+    height: 55%;
+    width: 37%;
+    background-color: rgb(41, 40, 40);
+    opacity: 0.6;
+    border-radius: 5px;
+    padding: 0px 13px;
+    border-color: rgb(201, 194, 194);
+}
+
+.class-input button {
+    height: 60%;
+    width: 20%;
+    margin: 4px;
+    border: none;
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+button i {
+    font-size: 15px
+}
+
+.class-tv {
+    height: 31rem;
+    width: 100%;
+    margin: 7px 0px 0px 0px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.classtv-texts {
+    height: 25rem;
+    width: 42%;
+    color: white;
+    margin: 5px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+
+}
+
+.class-tvimg {
+    height: 25rem;
+    width: 42%;
+
+}
+
+.classtv-texts h1 {
+
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    margin: 90px 0px 0px 0px;
+}
+
+.classtv-texts p {
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.class-tvimg img {
+    height: 23rem;
+    width: 90%;
+}
+
+.class-download,
+.class-apple-tv ,.class-boy-img{
+    height: 31rem;
+    width: 100%;
+    margin: 7px 0px 0px 0px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* gifff */
+    .class-gif{
+        height: 80px;
+        width: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color:  rgb(0, 0, 0);
+        border: 1px solid rgb(65, 62, 62);
+        border-radius: 10px;
+        position: relative;
+        bottom: 27%;
+        left: 19%;
+    }
+
+.class-down-img {
+    height: 28rem;
+    width: 46%;
+    color: white;
+    margin: 15px;
+
+}
+
+.class-downtext,
+.class-apple-text ,.class-boy-text,.class-boy-im{
+    height: 25rem;
+    width: 42%;
+    color: white;
+}
+.class-downtext h1 {
+    font-size: 44px;
+    margin: 55px 0px 0px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.class-downtext p , .class-apple-text p {
+    margin: 35px 0px 0px 0px;
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.class-apple-img {
+    height: 25rem;
+    width: 42%;
+    color: white;
+    margin: 4px;
+}
+.class-apple-img img {
+    
+    position: relative;
+    z-index: 2;
+}
+.v-2{
+    height: 570px;
+    width: 56%;
+    position: relative;
+    bottom: 520px;
+    left: 94px;
+    z-index: 1;
+}
+
+.class-apple-text h1 {
+    margin: 100px 0px 09px 0px;
+    font-size: 44px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.class-boy-text p {
+    margin: 26px 0px 0px 0px;
+    font-size: 24px;
+
+}
+.class-boy-text h1{
+    font-size: 35px;
+    margin: 70px 0px 0px 0px ;
+}
+
+.video-1 {
+    width: 66%;
+    position: relative;
+    z-index: 0;
+    bottom: 290px;
+    left: 60px;
+}
+
+.img-1 {
+    position: relative;
+    z-index: 1;
+}
+.class-freq{
+    height: 53rem;
+    width: 100%;
+    background-color: rgb(0, 0, 0);    
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.class-last-one,.class-last-three{
+    height: 120px;
+    width: 85%;
+    
+}
+.class-last-one h1 {
+    margin: 38px 0px 0px 240px;
+    font-size: 45px;
+    color: white;
+}
+.class-last-two{
+    height: 600px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;  
+}
+.class-what-button{
+    height: 80px;
+    width: 90%;
+    background-color: #413f3f;
+    border-color: #a9a9a9;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.class-what-button p  {
+    font-size: 27px;
+    margin-left: 18px;
+    
+}
+.class-what-button i {
+    margin-right: 30px;
+    font-size: 26px; 
+    
+    
+}
+.class-last-three p{
+    color: white;
+    font-size: 22
+    px;
+    margin: 2px 0px 0px 225px;
+}
+.class-last-three input{
+    height: 37%;
+    width: 25%;
+    background-color: rgb(41, 40, 40);
+    opacity: 0.6;
+    margin:  20px 0px 0px 270px;
+    border-radius: 5px;
+    padding: 0px 13px;
+    border-color: rgb(201, 194, 194);
+    
+}
+.class-last-three button {
+    height: 40%;
+    width: 15%;
+    border: none;
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.class-final{
+    height: 31rem;
+    width: 100%;
+    background-color: rgb(0, 0, 0);    
+    margin-top: 7px;
+}
+@media only screen and (max-width: 430px){
+    body, html{
+        overflow-x: hidden;
+    }
+    .div-nav {
+        width: 100%;
+        justify-content: space-between;
+    
+    }
+    .div-nav img{
+        height: 50px;
+        width: 100px;
+        margin-left: 10px;
+    }
+    .class-eng  {
+        height: 30px;
+        width:105px;
+    }
+    .class-texts h1{
+        font-size: 29px;
+
+    }
+    .class-texts p{
+        font-size: 15px;
+    }
+    .class-input button {
+        height: 40px;
+        width: 110px;
+        font-size: 16px;
+    }
+    .class-input input{
+        height: 36px;
+        width: 130px;
+    }
+    /* session 2 */
+    .classtv-texts{
+        width: 100%;
+    }
+    .classtv-texts h1 {
+        font-size: 30px;
+    }
+    .classtv-texts p {
+        font-size: 17px;
+    }
+    .class-tvimg img{
+        height: 180px;
+        width: 160px;
+        margin: 110px 0px 0px 0px;
+    } 
+    .video-1{
+        height:160px ;
+        width: 130px;
+        position: relative;
+        bottom: 39%;
+        left: 10%;
+    }
+
+
+
+}
+   
